@@ -11,10 +11,10 @@
 <body>
     <article>
         <h1>Hello, my name is Henrik</h1>
-        <p>
+        <h2>
             I like to give life to creations by code. I am currently studying at
             Yrgo to become a webdeveloper
-        </p>
+        </h2>
     </article>
 </body>
 
