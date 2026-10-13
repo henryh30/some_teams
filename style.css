@@ -1,0 +1,53 @@
+:root {
+  --primary: #7ae7c7;
+  --secondary: #f4d58d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary);
+}
+
+.headLine {
+  text-align: center;
+  background: var(--secondary);
+}
+
+.logos {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.articles {
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.articles article {
+  border: solid black;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 5px 10px 10px;
+  background: var(--secondary);
+}
+
+.articles > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.articles img {
+  max-height: 300px;
+  max-width: 150px;
+  flex: 1;
+}
+
+.mainInfo {
+  margin: 4px 4px;
+}
