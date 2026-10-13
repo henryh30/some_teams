@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8" />
+    <meta name="Some-Teams" content="some-teams" />
+    <meta property="og:title" description="Page about some teams" />
+    <meta name="viewport" content="width-device.width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</header>
