@@ -27,16 +27,16 @@
                      </div>
                      <div>
                          <h4>
-                             <?php echo $value['uefa-coefficient-ranking']; ?>
+                             <?php echo "Uefa coefficient ranking: " .  $value['uefa-coefficient-ranking']; ?>
                              <br />
                              <?php
                                 if ($value['league-position'] !== null) {
-                                    echo $value['league-position'];
+                                    echo "League position: " . $value['league-position'];
                                 } else {
                                     echo "Could not identify league position";
                                 } ?>
                              <br />
-                             <?php echo $value['city']; ?>
+                             <?php echo "City: " . $value['city']; ?>
                              <br />
                              <a href="<?php echo $value['url']; ?>">About <?php echo $key; ?></a>
                          </h4>
