@@ -14,16 +14,16 @@
              <?php foreach ($teams as $key => $value) : ?>
                  <article>
                      <div class=mainInfo>
+                         <div class="logos">
+                             <img src="<?php echo $value['logo']; ?>" />
+                             <img src="<?php echo $value['logo_uefa']; ?>" />
+                         </div>
                          <h2>
                              <?php echo $key; ?>
                          </h2>
                          <h3>
                              <?php echo $value['league']; ?>
                          </h3>
-                     </div>
-                     <div class="logos">
-                         <img src="<?php echo $value['logo']; ?>" />
-                         <img src="<?php echo $value['logo_uefa']; ?>" />
                      </div>
                      <div>
                          <h4>
