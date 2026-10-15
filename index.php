@@ -4,10 +4,16 @@
     ?>
 
  <body>
-     <div class="headLine">
-         <div>
-             <h1>Some teams</h1>
-             <p>Here are a list of some teams:</p>
+     <div class="navBar">
+         <div class="headLine">
+             <div class="title">
+                 <h1>Some teams</h1>
+                 <p>Here are a list of some teams:</p>
+             </div>
+
+             <div class="aboutMe">
+                 <a href="about.php">About Me</a>
+             </div>
          </div>
      </div>
 
@@ -49,11 +55,7 @@
      </div>
 
      <footer>
-         <div>
-             <div>
-                 <a href="about.php">About me</a>
-             </div>
-         </div>
+         <div>Nothing down here</div>
      </footer>
  </body>
 
