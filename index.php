@@ -5,8 +5,10 @@
 
  <body>
      <div class="headLine">
-         <h1>Some teams</h1>
-         <p>Here are a list of some teams:</p>
+         <div>
+             <h1>Some teams</h1>
+             <p>Here are a list of some teams:</p>
+         </div>
      </div>
 
      <div class="articles">
