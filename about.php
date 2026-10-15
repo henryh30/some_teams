@@ -10,11 +10,22 @@
 
 <body>
     <article>
-        <h1>Hello, my name is Henrik</h1>
-        <h2>
-            I like to give life to creations by code. I am currently studying at
-            Yrgo to become a webdeveloper
-        </h2>
+        <div class="navBar">
+            <div class="headLine">
+                <h1>Hello, my name is Henrik</h1>
+                <div class="aboutMe">
+                    <a href="index.php">Back to main page</a>
+                </div>
+            </div>
+        </div>
+        <div class="articles">
+            <article>
+                <h2>
+                    I like to give life to creations by code. I am currently studying at
+                    Yrgo to become a webdeveloper
+                </h2>
+            </article>
+        </div>
     </article>
 </body>
 
