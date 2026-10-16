@@ -26,6 +26,6 @@ A little about me: Hi, I am Henrik Hua, currently a student at Yrgo aspiring to 
 To download this and use it, you will need to download each and every file (especially the php and css files) and then open them in Visual Studio Code. Then go to `Terminal` tab on the upper navigation
 and click `New terminal`. 
 
-In the terminal change the it from windows powershell to Ubuntu and run following command: `php -S localhost:8000` and then type in `localhost:8000/index.php` in your local browser. 
+In the terminal change the it from windows powershell to Ubuntu and run following command: `php -S localhost:8000` and then type in `localhost:8000/index.php` in your local browser. Some-teams can also be runned at your local browser by the url: henrik-hua.se/some_teams_ONE/
 
 Use at own risk.
